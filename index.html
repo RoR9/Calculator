@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        
+        <p class="title">The Calculator</p>
+        <!-- Result input--->
+        <div class="calc">
+        <div class="result">
+            <p class="result_display">0</p>
+        </div>
+
+        <!-- Buttons--->
+        <div class="nums_columns">
+        <div class="nums_column">
+            <button class="btn delete_character d_btn"><=</button>
+            <button class="sign_change btn d_btn">+/-</button>
+            <button class="precent btn d_btn">%</button>
+        <button class="operations btn divide d_btn" value="/">/</button>
+    </div>
+    <div class="nums_column nums_column_4">
+        <button class="numbers btn" data-key="49" value="1">1</button>
+        <button class="numbers btn" data-key="50" value="2">2</button>
+        <button class="numbers btn" data-key="51" value="3">3</button>
+        <button class="operations btn d_btn" data-key="187" value="+">+</button>
+    </div>
+         <div class="nums_column nums_column_3">
+        <button class="numbers btn " data-key="52" value="4">4</button>
+        <button class="numbers btn" data-key="53" value="5">5</button>
+        <button class="numbers btn" data-key="54"value="6">6</button>
+        <button class="operations btn d_btn" data-key="189" value="-">-</button>
+    </div>
+    <div class="nums_column nums_column_2">
+        <button class="numbers btn" data-key="55" value="7">7</button>
+        <button class="numbers btn" data-key="56" value="8">8</button>
+        <button class="numbers btn"data-key="57" value="9">9</button>
+        <button class="operations btn d_btn"data-key="221" value="x">x</button>
+    </div>
+
+    <div class="nums_column nums_column_1">
+       
+        <button class="numbers btn" data-key="48" value="0">0</button>
+        <button class="point btn d_btn">.</button>
+        <button class="c btn">C</button>
+      
+        <button class="equal btn" data-key="61" >=</button>
+    </div>
+  
+   
+    </div>
+</div>
+
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

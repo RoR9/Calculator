@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  background-color: #333;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  color: #d4d4d2;
+}
+
+.title {
+  font-size: 28px;
+  margin: 100px 0 40px 0;
+  text-align: center;
+}
+
+.calc {
+  margin: 0 auto;
+  max-width: 230px;
+  border: 1px solid #d4d4d2;
+}
+
+.result {
+  width: 100%;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0px;
+  font-size: 20px;
+  background-color: #1c1c1c;
+  overflow-wrap: break-word;
+}
+
+.result_display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  inline-size: 230px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.nums_columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nums_column {
+  background-color: #505050;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.operations {
+  border: #505050 solid 1px;
+  background-color: #ff9550;
+  color: #fff;
+  font-size: 15px;
+}
+
+.numbers.clicked {
+  padding: 10px;
+  border: 0;
+  background-color: #d4d4d2;
+}
+
+.equal {
+  border: #505050 solid 1px;
+  background-color: #ff9550;
+  color: #fff;
+}
+
+.btn {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: block;
+  width: 50px;
+  height: 40px;
+}
+
+.random {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.selected {
+  background-color: white;
+  color: #ff9550;
+}
+
+.equal_d {
+  background-color: white;
+  color: #ff9550;
+}
+
+.divide {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+}
+
+.nums_column_4 {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.nums_column_3 {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.nums_column_1 {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+}
+/*# sourceMappingURL=calc.css.map */
