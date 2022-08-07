@@ -83,6 +83,15 @@ function sum(){
     operations.forEach(operation=>operation.classList.remove("selected"))
     secondNum=resultDisplay.textContent
     equal.classList.add("equal_d")
+    //if first and second and no operator
+    //return second=first
+    if(firstNum && secondNum && !operator){
+        firstNum=secondNum
+        secondNum=""
+        return setTimeout(function(){
+            equal.classList.remove("equal_d")
+        },250)
+    }
     if(operator==="/" && secondNum==="0"){
         clear()
         errorBtns.forEach(errorBtn=>errorBtn.disabled=true)
